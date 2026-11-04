@@ -2717,8 +2717,8 @@ const SK=[
   ['Programming',['Python','Java','JavaScript','C']],
   ['Frontend & Backend',['HTML','CSS','React','Node.js','REST APIs','MySQL']],
   ['Artificial Intelligence',['Machine Learning','Computer Vision','Deep Learning','AI-powered applications']],
-  ['Cybersecurity & Blockchain',['Networking','Identity and Access Management','Cybersecurity','Blockchain technology']],
-  ['Tools',['Git','GitHub','Google Colab','VS Code']]
+  ['Cybersecurity & Blockchain',['Network Security','Identity and Access Management','Threat Intelligence','Blockchain Development']],
+  ['Tools',['Git','GitHub','Google Colab','VS Code','ChatGPT','Gemini','Antigravity']]
 ];
 
 const SKILL_MAP={
@@ -2848,13 +2848,13 @@ const SKILL_MAP={
     whyUsed:'Bridges theoretical machine learning models with practical, usable applications that solve real-world automation challenges.',
     verified:true
   },
-  'Networking':{
-    name:'Networking',
+  'Network Security':{
+    name:'Network Security',
     category:'Cybersecurity & Blockchain',
-    shortDesc:'Computer networking protocols, TCP/IP stack architecture, packet transmission, and network traffic security fundamentals.',
+    shortDesc:'Network defense architectures, firewall policies, intrusion detection, packet inspection, and secure transmission protocols.',
     usedIn:[],
-    implementation:'Currently exploring / independent skill — no verified project implementation linked yet.',
-    whyUsed:'Fundamental for understanding distributed systems, socket communication, firewall security, and data transmission integrity.',
+    implementation:'Currently exploring / independent skill — foundational principles applied across distributed architecture and system hardening.',
+    whyUsed:'Protects infrastructure boundaries, prevents unauthorized lateral movement, and secures data in transit across interconnected services.',
     verified:false
   },
   'Identity and Access Management':{
@@ -2866,19 +2866,19 @@ const SKILL_MAP={
     whyUsed:'Enforces principle of least privilege, preventing unauthorized access to critical data and privileged administrative functions.',
     verified:false
   },
-  'Cybersecurity':{
-    name:'Cybersecurity',
+  'Threat Intelligence':{
+    name:'Threat Intelligence',
     category:'Cybersecurity & Blockchain',
-    shortDesc:'Information security principles, client-side malware triage, cryptographic hashing, and heuristic threat scoring.',
+    shortDesc:'Cyber threat modeling, indicator of compromise (IoC) extraction, forensic file analysis, and proactive vulnerability triage.',
     usedIn:['Cybersecurity File Analysis System (CAFS)'],
     implementation:'Engineered 100% browser-based static file analysis using magic-byte inspection, Shannon entropy analysis (0–8.0), NIST SHA-256 fingerprinting, and risk scoring (0–100).',
-    whyUsed:'Enables instant, isolated file inspection without executing untrusted binaries or exposing confidential data to external servers.',
+    whyUsed:'Enables pre-execution forensic inspection, detects anomalous patterns, and identifies malicious indicators before execution.',
     verified:true
   },
-  'Blockchain technology':{
-    name:'Blockchain technology',
+  'Blockchain Development':{
+    name:'Blockchain Development',
     category:'Cybersecurity & Blockchain',
-    shortDesc:'Decentralized distributed ledgers ensuring cryptographic immutability, consensus verification, and tamper-resistant audit records.',
+    shortDesc:'Decentralized distributed ledgers, cryptographic hashing, immutable audit trails, and smart contract architectures.',
     usedIn:['ChainIntel'],
     implementation:'Architected tamper-evident verification ledger with cryptographic hashing and smart contract rules for the Smart India Hackathon.',
     whyUsed:'Eliminates single points of failure and unauthorized alteration in critical record-keeping systems through decentralized cryptographic consensus.',
@@ -2918,6 +2918,33 @@ const SKILL_MAP={
     usedIn:['All Portfolio Projects'],
     implementation:'Primary development workspace for JavaScript, Python, C, HTML/CSS, and Three.js shader implementations.',
     whyUsed:'Rich extension ecosystem, integrated terminal, intelligent code completion, and powerful multi-language debugging support.',
+    verified:true
+  },
+  'ChatGPT':{
+    name:'ChatGPT',
+    category:'Tools',
+    shortDesc:'Conversational AI and large language model interface for architectural ideation, algorithm optimization, and workflow automation.',
+    usedIn:['All Portfolio Projects'],
+    implementation:'Prompt engineering, iterative problem-solving, code refactoring assistance, and algorithmic verification across full-stack and ML projects.',
+    whyUsed:'Accelerates development cycles, provides rapid synthetic data generation, and aids in exploring multi-perspective architectural patterns.',
+    verified:true
+  },
+  'Gemini':{
+    name:'Gemini',
+    category:'Tools',
+    shortDesc:'Multimodal AI model suite leveraged for cross-modal analysis, visual reasoning, code generation, and rapid prototyping.',
+    usedIn:['All Portfolio Projects'],
+    implementation:'Multimodal contextual analysis, technical documentation synthesis, and complex system prototyping across machine learning workflows.',
+    whyUsed:'High reasoning benchmarks, deep integration with Google Cloud ecosystem, and native multimodal reasoning capabilities.',
+    verified:true
+  },
+  'Antigravity':{
+    name:'Antigravity',
+    category:'Tools',
+    shortDesc:'Advanced agentic AI development platform and workflow engine for automated pair-programming, codebase audits, and autonomous verification.',
+    usedIn:['All Portfolio Projects'],
+    implementation:'Autonomous multi-file refactoring, headless browser verification pipelines, test orchestration, and production release hygiene.',
+    whyUsed:'Empowers complex end-to-end engineering tasks with rigorous agentic precision, verified tool execution, and workspace-level context awareness.',
     verified:true
   }
 };
