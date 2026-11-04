@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://devansh-portfolio-fawn-theta.vercel.app/sitemap.xml
+Sitemap: https://devansh-webportfolio.vercel.app/sitemap.xml
