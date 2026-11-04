@@ -1,0 +1,21 @@
+# ===================================================================
+# Repository B: Portfoio (Public Production Release) .gitignore
+# ===================================================================
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local logs and environment files
+*.log
+.env
+.env.*

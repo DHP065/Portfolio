@@ -1,0 +1,6 @@
+# robots.txt for Devansh Patel Portfolio
+User-agent: *
+Allow: /
+
+# Sitemaps (Replace placeholder with your confirmed Vercel production domain)
+Sitemap: https://YOUR-VERCEL-DOMAIN.vercel.app/sitemap.xml
