@@ -2,5 +2,5 @@
 User-agent: *
 Allow: /
 
-# Sitemaps (Replace placeholder with your confirmed Vercel production domain)
-Sitemap: https://YOUR-VERCEL-DOMAIN.vercel.app/sitemap.xml
+# Sitemap
+Sitemap: https://devansh-portfolio-fawn-theta.vercel.app/sitemap.xml
